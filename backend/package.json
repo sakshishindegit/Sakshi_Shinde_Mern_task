@@ -1,0 +1,22 @@
+{
+  "name": "homework1",
+  "version": "1.0.0",
+  "description": "Adv Topics in Web Programming CS5220 - owner Anand Gutte",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon server.js"
+  },
+  "author": "Anand Gutte",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.7"
+  }
+}
